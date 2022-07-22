@@ -4,7 +4,6 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -51,7 +50,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  /* margin: 4rem 0; */
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -126,4 +125,26 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.blogs{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.mainnav ul{
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+}
+.mainnav li{
+  list-style: none;
+  margin: 24px;
+}
+.myimg{
+  border-radius: 10px;
+}
+
+.imagewrap{
+  padding: 50px
 }

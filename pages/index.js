@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
@@ -18,7 +18,9 @@ export default function Home() {
         Hunting Coder
         </h1>
         <div className={styles.imagewrap}>
-        <Image className={styles.myimg} src={'/home2.jpg'} width={'500'} height={'300'}/>
+        {/* <Image className={styles.myimg} src={'/home2.jpg'} width={'500'} height={'300'} alt="Hunting coder"/> */}
+        <img className={styles.myimg} src='/home2.jpg' width={500} height={300}/>
+
         </div>
         <p className={styles.description}>
           A blog for hunting coder by a hunting coders
